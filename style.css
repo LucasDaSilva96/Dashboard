@@ -32,4 +32,8 @@ html {
 
   --white-text-color: #f5f5f5;
   --grey-text-color: #7a7a7a;
+
+  --body-color: #000000;
+  --grids-dark-color: ##1f1f1f;
+  --grid-grey-color: #7a7a7a;
 }
