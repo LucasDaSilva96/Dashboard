@@ -17,34 +17,57 @@
       <!-- Home and Search box start -->
       <div class="container-1">
         <div class="home-search-container">
-          <div>
-            <img class="home-icon" src="./SVG/SVG/home.svg" alt="Home button" />
-            <p class="home-search-text">Home</p>
+          <div class="home-container">
+            <div>
+              <img
+                class="home-icon icon"
+                src="./SVG/SVG/home.svg"
+                alt="Home button"
+              />
+            </div>
+            <div>
+              <p class="home-search-text">Home</p>
+            </div>
           </div>
-          <div>
-            <img
-              class="search-icon-big"
-              src="./SVG/SVG/search.svg"
-              alt="Search button"
-            />
-            <p class="home-search-text">Search</p>
+          <div class="search-container">
+            <div>
+              <img
+                class="search-icon-big icon"
+                src="./SVG/SVG/search.svg"
+                alt="Search button"
+              />
+            </div>
+            <input id="search-input" type="text" />
+            <div class="home-search-text-container">
+              <p class="home-search-text-2">Search</p>
+            </div>
           </div>
         </div>
         <!-- Playlist side container Start -->
         <div class="nested-container">
           <!--  -->
           <div class="playlist-container-1">
-            <img
-              class="playlist-icon"
-              src="./SVG/SVG/playlist.svg"
-              alt="Playlist icon"
-            />
-            <img class="plus-icon" src="./SVG/SVG/plus.svg" alt="Plus icon" />
-            <img
-              class="right-arrow-icon"
-              src="./SVG/SVG/circle-right.svg"
-              alt="right icon"
-            />
+            <div class="playlist-icon-container">
+              <img
+                class="playlist-icon icon"
+                src="./SVG/SVG/playlist.svg"
+                alt="Playlist icon"
+              />
+            </div>
+            <div>
+              <img
+                class="plus-icon icon"
+                src="./SVG/SVG/plus.svg"
+                alt="Plus icon"
+              />
+            </div>
+            <div>
+              <img
+                class="right-arrow-icon icon"
+                src="./SVG/SVG/circle-right.svg"
+                alt="right icon"
+              />
+            </div>
           </div>
           <!--  -->
           <div class="playlist-container-2">
@@ -62,51 +85,62 @@
           </div>
           <!--  -->
           <div class="playlist-container-3">
-            <img
-              class="search-icon-small"
-              src="./SVG/SVG/search.svg"
-              alt="search playlist icon"
-            />
-
-            <p>Recents</p>
-            <img
-              class="down-arrow-icon"
-              src="./SVG/SVG/caret-circle-down.svg"
-              alt="down arrow icon"
-            />
+            <div class="search-icon-small-container">
+              <img
+                class="search-icon-small icon"
+                src="./SVG/SVG/search.svg"
+                alt="search playlist icon"
+              />
+            </div>
+            <div>
+              <p>Recents</p>
+            </div>
+            <div>
+              <img
+                class="down-arrow-icon icon"
+                src="./SVG/SVG/caret-circle-down.svg"
+                alt="down arrow icon"
+              />
+            </div>
           </div>
           <!--Playlist Box container Start  -->
           <div class="playlist-container-4">
             <!--  -->
             <div class="playlist-box">
-              <div>
+              <div class="vinyl-icon-small-container">
                 <img
                   class="vinyl-icon-small"
                   src="./SVG/SVG/vinyl-record.svg"
                   alt="vinyl icon"
                 />
               </div>
-              <p>Playlist 1</p>
+              <div>
+                <p>Playlist 1</p>
+              </div>
             </div>
             <div class="playlist-box">
-              <div>
+              <div class="vinyl-icon-small-container">
                 <img
                   class="vinyl-icon-small"
                   src="./SVG/SVG/vinyl-record.svg"
                   alt="vinyl icon"
                 />
               </div>
-              <p>Playlist 2</p>
+              <div>
+                <p>Playlist 2</p>
+              </div>
             </div>
             <div class="playlist-box">
-              <div>
+              <div class="vinyl-icon-small-container">
                 <img
                   class="vinyl-icon-small"
                   src="./SVG/SVG/vinyl-record.svg"
                   alt="vinyl icon"
                 />
               </div>
-              <p>Playlist 3</p>
+              <div>
+                <p>Playlist 3</p>
+              </div>
             </div>
             <!--  -->
           </div>
@@ -122,14 +156,14 @@
         <div class="main-box-1">
           <div>
             <img
-              class="left-icon"
+              class="left-icon icon"
               src="./SVG/SVG/circle-left.svg"
               alt="left arrow"
             />
           </div>
-          <div>
+          <div class="right-arrow-icon-container">
             <img
-              class="right-icon"
+              class="right-icon icon"
               src="./SVG/SVG/circle-right.svg"
               alt="right-arrow"
             />
@@ -137,7 +171,7 @@
           <div></div>
           <div>
             <img
-              class="user-icon"
+              class="user-icon icon"
               src="./SVG/SVG/users-three.svg"
               alt="user icon"
             />
@@ -155,7 +189,9 @@
               alt="vinyl icon"
               class="vinyl-icon-big"
             />
-            <p>Playlist 1</p>
+            <div>
+              <p>Playlist 1</p>
+            </div>
           </div>
           <div class="main-playlist-container">
             <img
@@ -163,7 +199,9 @@
               alt="vinyl icon"
               class="vinyl-icon-big"
             />
-            <p>Playlist 2</p>
+            <div>
+              <p>Playlist 2</p>
+            </div>
           </div>
           <div class="main-playlist-container">
             <img
@@ -171,7 +209,9 @@
               alt="vinyl icon"
               class="vinyl-icon-big"
             />
-            <p>Playlist 3</p>
+            <div>
+              <p>Playlist 3</p>
+            </div>
           </div>
         </div>
         <!--  -->
@@ -182,14 +222,14 @@
           <div></div>
           <div>
             <img
-              class="left-icon"
+              class="left-icon icon"
               src="./SVG/SVG/circle-left.svg"
               alt="left icon"
             />
           </div>
           <div>
             <img
-              class="right-icon"
+              class="right-icon icon"
               src="./SVG/SVG/circle-right.svg"
               alt="right icon"
             />
@@ -198,28 +238,40 @@
         <!--  -->
         <div class="daily-mix-container">
           <div class="daily-box">
-            <img
-              src="./SVG/SVG/cassette-tape.svg"
-              alt="cassette icon"
-              class="cassette-icon"
-            />
-            <h5>Daily Mix 1</h5>
+            <div>
+              <img
+                src="./SVG/SVG/cassette-tape.svg"
+                alt="cassette icon"
+                class="cassette-icon"
+              />
+            </div>
+            <div>
+              <h5>Daily Mix 1</h5>
+            </div>
           </div>
           <div class="daily-box">
-            <img
-              src="./SVG/SVG/cassette-tape.svg"
-              alt="cassette icon"
-              class="cassette-icon"
-            />
-            <h5>Daily Mix 2</h5>
+            <div>
+              <img
+                src="./SVG/SVG/cassette-tape.svg"
+                alt="cassette icon"
+                class="cassette-icon"
+              />
+            </div>
+            <div>
+              <h5>Daily Mix 2</h5>
+            </div>
           </div>
           <div class="daily-box">
-            <img
-              src="./SVG/SVG/cassette-tape.svg"
-              alt="cassette icon"
-              class="cassette-icon"
-            />
-            <h5>Daily Mix 3</h5>
+            <div>
+              <img
+                src="./SVG/SVG/cassette-tape.svg"
+                alt="cassette icon"
+                class="cassette-icon"
+              />
+            </div>
+            <div>
+              <h5>Daily Mix 3</h5>
+            </div>
           </div>
         </div>
         <!--  -->
@@ -259,7 +311,7 @@
         </div>
         <!--  -->
         <div class="music-controller-container">
-          <div>
+          <div class="start-time">
             <p>00:00</p>
           </div>
           <div>
@@ -293,10 +345,10 @@
               class="repeat-icon"
             />
           </div>
-          <div>
+          <div class="music-bar">
             <progress id="music-bar" max="100" value="0"></progress>
           </div>
-          <div>
+          <div class="end-time">
             <p>3:15</p>
           </div>
         </div>
