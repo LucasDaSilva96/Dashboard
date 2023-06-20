@@ -78,6 +78,24 @@ body {
   flex: 1;
 }
 
+.search-input-container {
+  position: relative;
+  padding: 15px 0 0;
+  width: 50%;
+}
+
+#search-input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 16px;
+  color: var(--white-text-color);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
 .nested-container {
   display: grid;
   grid-template-rows: 1fr 1fr 0.5fr 6fr;
