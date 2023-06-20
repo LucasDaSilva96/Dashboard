@@ -18,7 +18,7 @@
       <div class="container-1">
         <div class="home-search-container">
           <div class="home-container">
-            <div>
+            <div class="home-icon-container center">
               <img
                 class="home-icon icon"
                 src="./SVG/SVG/home.svg"
@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="search-container">
-            <div>
+            <div class="search-icon-big-container center">
               <img
                 class="search-icon-big icon"
                 src="./SVG/SVG/search.svg"
@@ -280,17 +280,23 @@
 
       <!-- Friend Activity container Start -->
       <div class="container-3">
-        <h5>Friend Activity</h5>
-        <img
-          class="add-friend-icon"
-          src="./SVG/SVG/user-plus.svg"
-          alt="add friend icon"
-        />
-        <img
-          class="close-icon"
-          src="./SVG/SVG/x.svg"
-          alt="close friends activity icon"
-        />
+        <div class="friend-activity-text-container">
+          <h5>Friend Activity</h5>
+        </div>
+        <div class="add-friend-icon-container center">
+          <img
+            class="add-friend-icon"
+            src="./SVG/SVG/user-plus.svg"
+            alt="add friend icon"
+          />
+        </div>
+        <div class="close-icon-container center">
+          <img
+            class="close-icon"
+            src="./SVG/SVG/x.svg"
+            alt="close friends activity icon"
+          />
+        </div>
       </div>
       <!-- Friend Activity container End -->
 
@@ -306,61 +312,66 @@
         </div>
         <!--  -->
         <div class="music-name-like-container">
-          <h6>Music</h6>
-          <img src="./SVG/SVG/heart-straight.svg" alt="like music icon" />
+          <div>
+            <h6>Artist</h6>
+          </div>
+          <div>
+            <img src="./SVG/SVG/heart-straight.svg" alt="like music icon" />
+          </div>
         </div>
         <!--  -->
         <div class="music-controller-container">
           <div class="start-time">
             <p>00:00</p>
           </div>
-          <div>
+          <div class="shuffle-container">
             <img
               src="./SVG/SVG/shuffle.svg"
               alt="shuffle icon"
               class="shuffle-icon"
             />
           </div>
-          <div>
+          <div class="previous-container">
             <img
               src="./SVG/SVG/skip-back.svg"
               alt="previous icon"
               class="previous-icon"
             />
           </div>
-          <div>
+          <div class="play-container center">
             <img src="./SVG/SVG/play.svg" alt="play icon" class="play-icon" />
           </div>
-          <div>
+          <div class="next-container">
             <img
               src="./SVG/SVG/skip-forward.svg"
               alt="next icon"
               class="next-icon"
             />
           </div>
-          <div>
+          <div class="repeat-container">
             <img
               src="./SVG/SVG/repeat.svg"
               alt="repeat icon"
               class="repeat-icon"
             />
           </div>
-          <div class="music-bar">
-            <progress id="music-bar" max="100" value="0"></progress>
-          </div>
+          <div class="music-bar" data-label="Name of music"></div>
           <div class="end-time">
             <p>3:15</p>
           </div>
         </div>
         <!--  -->
-        <div class="sound-controler-container">
-          <img
-            class="volume icon"
-            src="./SVG/SVG/equalizer.svg"
-            alt=" volume icon"
-          />
-
-          <progress id="volume-bar" max="100" value="45"></progress>
+        <div class="sound-controller-container">
+          <div class="volume-container">
+            <img
+              class="volume icon"
+              src="./SVG/SVG/equalizer.svg"
+              alt=" volume icon"
+            />
+          </div>
+          <div class="volume-bar-container">
+            <progress id="volume-bar" max="100" value="45"></progress>
+          </div>
         </div>
         <!--  -->
       </div>
