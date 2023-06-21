@@ -160,11 +160,12 @@ body {
 }
 
 .playlist-box {
+  width: 100%;
   padding: 10px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   gap: 10px;
+  border-radius: var(--border-radius);
 }
 
 .vinyl-icon-small,
@@ -456,4 +457,106 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* ************ Hover - effects ********** */
+.home-icon,
+.search-icon-big,
+.playlist-icon,
+.plus-icon,
+.right-arrow-icon,
+.search-icon-small,
+.down-arrow-icon,
+.left-icon,
+.right-icon,
+.user-icon,
+.add-friend-icon {
+  transition: all 0.3s ease-out;
+}
+
+.close-icon {
+  transition: all 0.5s ease;
+}
+
+.home-icon:hover,
+.search-icon-big:hover,
+.playlist-icon:hover,
+.plus-icon:hover,
+.right-arrow-icon:hover,
+.search-icon-small:hover,
+.down-arrow-icon:hover,
+.left-icon:hover,
+.right-icon:hover,
+.user-icon:hover,
+.add-friend-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.close-icon:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.opt-1,
+.opt-2,
+.opt-3 {
+  transition: all 0.3s ease-in;
+}
+
+.opt-1:hover,
+.opt-2:hover,
+.opt-3:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
+/****** Vinyl playlist small ******/
+.Playlist-small-1,
+.Playlist-small-2,
+.Playlist-small-3 {
+  transition: all 0.3s ease;
+}
+
+.Playlist-small-1:hover,
+.Playlist-small-2:hover,
+.Playlist-small-3:hover {
+  cursor: pointer;
+  background-color: #363636;
+}
+
+/* ********************************* */
+
+/****** Vinyl playlist big ******/
+
+.playlist-big-1,
+.playlist-big-2,
+.playlist-big-3 {
+  transition: all 0.3s ease;
+}
+
+.playlist-big-1:hover,
+.playlist-big-2:hover,
+.playlist-big-3:hover {
+  background-color: #9b9b9b;
+  cursor: pointer;
+}
+
+/* ******************************* */
+
+/******** Daily Mix Boxes *********/
+
+/* ***************************** */
+
+.daily-box-1,
+.daily-box-2,
+.daily-box-3 {
+  transition: all 0.3s ease;
+}
+
+.daily-box-1:hover,
+.daily-box-2:hover,
+.daily-box-3:hover {
+  background-color: #9b9b9b;
+  cursor: pointer;
 }
