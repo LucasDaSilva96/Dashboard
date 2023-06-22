@@ -546,8 +546,6 @@ h6 {
 
 /******** Daily Mix Boxes *********/
 
-/* ***************************** */
-
 .daily-box-1,
 .daily-box-2,
 .daily-box-3 {
@@ -560,3 +558,28 @@ h6 {
   background-color: #9b9b9b;
   cursor: pointer;
 }
+
+/* ***************************** */
+
+/* ********* Music control container **** */
+.heart-icon,
+.shuffle-icon,
+.previous-icon,
+.next-icon,
+.repeat-icon,
+.play-icon {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.heart-icon:hover,
+.shuffle-icon:hover,
+.previous-icon:hover,
+.next-icon:hover,
+.repeat-icon:hover {
+  background-color: var(--svg-white-color);
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+
+/* ************************************** */
