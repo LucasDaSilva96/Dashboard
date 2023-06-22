@@ -213,7 +213,6 @@ body {
   gap: 15px;
   background-color: var(--grids-dark-color);
   border-radius: var(--border-radius);
-  box-shadow: rgba(105, 105, 105, 0.4) 0px 30px 90px;
 }
 
 .main-box-1 {
