@@ -54,9 +54,8 @@ body {
   column-gap: 20px;
   row-gap: 5px;
   border-radius: var(--border-radius);
-  /* box-shadow: rgba(56, 56, 56, 0.56) 0px 22px 70px 4px; */
 }
-
+/***************** Container-1 ********************/
 .container-1 {
   display: grid;
   grid-template-columns: 1fr;
@@ -70,7 +69,6 @@ body {
   background-color: var(--grids-dark-color);
   border-radius: var(--border-radius);
   padding: 8px;
-  /* box-shadow: rgba(73, 73, 73, 0.4) 0px 30px 90px; */
 }
 
 .home-container,
@@ -119,7 +117,6 @@ body {
   background-color: var(--grids-dark-color);
   border-radius: var(--border-radius);
   padding: 10px;
-  /* box-shadow: rgba(73, 73, 73, 0.4) 0px 30px 90px; */
 }
 
 .playlist-container-1 {
@@ -206,6 +203,10 @@ body {
   font-weight: bold;
   color: #000000;
 }
+
+/*************************************/
+
+/***************** Container-2 ********************/
 
 .container-2 {
   display: grid;
@@ -302,6 +303,10 @@ h3 {
 h5 {
   font-size: 24px;
 }
+
+/*************************************/
+
+/***************** The footer / Music controller ********************/
 
 .footer-container {
   grid-column-start: 1;
@@ -402,6 +407,14 @@ h6 {
   width: 50px;
 }
 
+.music-playing-img-container {
+  align-self: center;
+  justify-self: start;
+}
+
+/*************************************/
+
+/***************** The Volume Section ********************/
 .sound-controller-container {
   grid-row: 2;
   align-self: start;
@@ -445,11 +458,9 @@ h6 {
   border-radius: 0.5rem;
 }
 
-.music-playing-img-container {
-  align-self: center;
-  justify-self: start;
-}
+/*************************************/
 
+/***************** Container-3 ********************/
 .container-3 {
   padding: 10px;
   background-color: var(--grids-dark-color);
@@ -480,11 +491,15 @@ h6 {
   height: 40px;
 }
 
+/*************************************/
+
+/***************** General class for centering elements/divs ********************/
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+/****************************************************************************** */
 
 /* ************ Hover - effects ********** */
 .home-icon,
