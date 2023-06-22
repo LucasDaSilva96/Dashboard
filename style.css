@@ -49,7 +49,7 @@ body {
 
 .main-container {
   display: grid;
-  grid-template-columns: 0.6fr 1fr 0.5fr;
+  grid-template-columns: 0.9fr 1.5fr 0.8fr;
   grid-template-rows: 1fr 0.1fr;
   column-gap: 20px;
   row-gap: 5px;
@@ -315,7 +315,7 @@ h5 {
 
 .music-controller-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 1fr;
   align-content: center;
   align-content: space-evenly;
@@ -403,19 +403,46 @@ h6 {
 }
 
 .sound-controller-container {
-  align-self: end;
-  display: grid;
-  grid-template-columns: 0.5fr 0.2fr;
-  gap: 10px;
-}
-
-.volume-container {
-  justify-self: center;
-  align-self: center;
+  grid-row: 2;
+  align-self: start;
+  display: flex;
+  align-items: end;
+  gap: 5px;
 }
 
 .volume-bar-container {
-  align-self: center;
+  align-self: start;
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+
+.volume-bar1 {
+  width: 0.5rem;
+  height: 1rem;
+  background-color: #000000;
+  border-radius: 0.5rem;
+}
+
+.volume-bar2 {
+  width: 0.5rem;
+  height: 1.5rem;
+  background-color: #000000;
+  border-radius: 0.5rem;
+}
+
+.volume-bar3 {
+  width: 0.5rem;
+  height: 2rem;
+  background-color: #000000;
+  border-radius: 0.5rem;
+}
+
+.volume-bar4 {
+  width: 0.5rem;
+  height: 2.5rem;
+  background-color: #000000;
+  border-radius: 0.5rem;
 }
 
 .music-playing-img-container {
@@ -583,3 +610,22 @@ h6 {
 }
 
 /* ************************************** */
+
+/* *** Volume bars ********* */
+.volume-bar1,
+.volume-bar2,
+.volume-bar3,
+.volume-bar4 {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.volume-bar1:hover,
+.volume-bar2:hover,
+.volume-bar3:hover,
+.volume-bar4:hover {
+  background-color: var(--svg-white-color);
+  transform: scale(1.08);
+}
+
+/* ************************ */
